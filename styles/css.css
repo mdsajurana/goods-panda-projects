@@ -121,27 +121,54 @@
 
 /* shoes section style */
 
+#shoes{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 98px;
+}
+
 .shoes-banner{
     gap: 24px;
 }
 
 .shoes-card{
     max-width: 360px;
-    height: 510px;
+    height: 520px;
     border: 2px solid #929292;
     border-radius: 20px;
     box-shadow: 0 6px 20px 1px rgba(146, 146, 146, 0.2);
+    display: grid;
+    justify-items: center;
+    padding-left: 26px;
+    padding-right: 26px;
 }
 
 .shoes-title{
     font-size: 1.4rem;
     font-weight: 600;
-    padding-left: 28px;
 }
 
 .shoes-description{
     font-size: 1rem;
     color: #4E4E4E;
+}
+
+.shoes-price{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.shoes-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 16px 62px 16px 24px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    
 }
 
 
@@ -150,7 +177,7 @@
         justify-items: center;
     }
 
-    .banner {
+    .banner, .shoes-banner {
         flex-direction: column;
     }
 
@@ -187,6 +214,15 @@
         max-width: 456px;
         margin-top: -18px;
         margin-left: 140px;
+    }
+
+    .shoes-img{
+        width: 100%;
+    }
+
+    .shoes-card{
+        max-width: 240px;
+        height: auto;
     }
 }
 
