@@ -119,8 +119,37 @@
     align-items: center;
 }
 
+/* shoes section style */
+
+.shoes-banner{
+    gap: 24px;
+}
+
+.shoes-card{
+    max-width: 360px;
+    height: 510px;
+    border: 2px solid #929292;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px 1px rgba(146, 146, 146, 0.2);
+}
+
+.shoes-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: 28px;
+}
+
+.shoes-description{
+    font-size: 1rem;
+    color: #4E4E4E;
+}
+
 
 @media screen and (max-width: 576px) {
+    .header-bar{
+        justify-items: center;
+    }
+
     .banner {
         flex-direction: column;
     }
@@ -135,6 +164,11 @@
 
     .menu-bar-title {
         font-size: 3rem;
+        margin-left: 15px;
+    }
+
+    .btn-prymary{
+        margin-left: 60px;
     }
 
     .categories{
