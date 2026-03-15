@@ -261,6 +261,10 @@
         flex-direction: column;
     }
 
+    .category-banner{
+        max-width: 100%;
+    }
+
     .shoes-img {
         max-width: 100%;
     }
