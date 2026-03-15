@@ -233,6 +233,8 @@
 @media screen and (max-width: 576px) {
     .header-bar {
         justify-items: center;
+        /* justify-content: center; */
+        margin-left: 15px;
     }
 
     .banner,
@@ -246,6 +248,7 @@
 
     .menu-bar-description {
         margin-right: 20px;
+        margin-left: 10px;
     }
 
     .menu-bar-title {
